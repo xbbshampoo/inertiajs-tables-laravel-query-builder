@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="flex flex-wrap space-x-4 justify-end md:justify-between">
+    <div class="flex flex-wrap justify-end md:justify-between">
       <slot
         name="tableFilter"
         :hasFilters="hasFilters"
