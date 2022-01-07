@@ -14,6 +14,7 @@
         name="tableGlobalSearch"
         :search="search"
         :changeGlobalSearchValue="changeGlobalSearchValue"
+        :changeFilterValue="changeFilterValue"
       >
         <div class="flex-grow">
           <TableGlobalSearch
