@@ -75,7 +75,7 @@
       <TableWrapper :class="{'mt-2': !onlyData}">
         <slot name="table">
           <table class="min-w-full divide-y divide-gray-200 bg-white">
-            <thead class="bg-gray-50">
+            <thead class="bg-white">
             <slot name="head"/>
             </thead>
 
