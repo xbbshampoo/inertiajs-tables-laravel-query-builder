@@ -129,6 +129,15 @@ export default {
     }, 500),
 
     changeFilterValue(key, value) {
+      // to allow dynamically add property into filters data structure
+      if (! this.queryBuilderData.filters.hasOwnProperty(key)) {
+        this.queryBuilderData.filters[key] = {
+          key: key,
+          label: key,
+          value: null,
+        }
+      }
+
       this.queryBuilderData.filters[key].value = value;
     },
 
