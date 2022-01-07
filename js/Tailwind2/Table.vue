@@ -13,6 +13,7 @@
       <slot
         name="tableGlobalSearch"
         :search="search"
+        :filters="filters"
         :changeGlobalSearchValue="changeGlobalSearchValue"
         :changeFilterValue="changeFilterValue"
       >
